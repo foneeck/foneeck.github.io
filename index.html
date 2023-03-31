@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="ua">
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.7/dist/tailwind.min.css" rel="stylesheet">
+    <meta charset="utf-8" content="width=device-width, initial- scale=1">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+
+    <title>Title</title>
+  </head>
+  <body>
+  <div class="wrapper">
+    <header>
+      <div class="bg-fixed headerimg min-h-screen">
+        <div class="container">
+          <div class="flex items-center justify-between ">
+            <div class="flex w-full justify-center">
+              <div class="text-left ">
+                <h1 class="font-bold text-black stroke-2 text-8xl mb-16" style="text-stroke: 2px black">Hello Kitty</h1>
+                <h2 class="text-4xl">Історія про маленьку кицю<br> та її друзів</h2>
+              </div>
+            </div>
+            <form class="w-80 m-5 p-5 bg-pink-300 rounded-lg" >
+              <h2 class="text-2xl font-bold mb-4 text-center">Реєстрація</h2>
+              <div class="mb-4">
+                <label class="block font-bold mb-2 pl-1" for="email">Пошта</label>
+                <input class="border border-gray-400 py-2 px-3 w-full rounded-md" type="email" id="email" name="email" required>
+              </div>
+              <div class="mb-4">
+                <label class="block font-bold mb-2 pl-1" for="password">Пароль</label>
+                <input class="border border-gray-400 py-2 px-3 w-full rounded-md" type="password" id="password" name="password" required>
+              </div>
+              <div class="mb-4">
+                <label class="block font-bold mb-2 pl-1" for="confirm_password">Повторіть пароль</label>
+                <input class="border border-gray-400 py-2 px-3 w-full rounded-md" type="password" id="confirm_password" name="confirm_password" required>
+              </div>
+              <div class="flex justify-center">
+                <button class="bg-pink-400 text-white py-2 mb-4 w-60 rounded-md hover:bg-pink-500" type="submit">Підтвердити</button>
+              </div>
+              <div class="">
+                <h2 class="text-lg font-bold mb-1 text-center">Зв'яжіться з нами</h2>
+                <div class="flex items-center justify-center">
+                  <a href="#" class="mr-4"><i class="fa fa-facebook fa-2x"></i></a>
+                  <a href="#" class="mr-4"><i class="fa fa-twitter fa-2x"></i></a>
+                  <a href="#" class="mr-4"><i class="fa fa-instagram fa-2x"></i></a>
+                  <a href="#" class="mr-4"><i class="fa fa-linkedin fa-2x"></i></a>
+                  <a href="#" class="mr-4"><i class="fa fa-github fa-2x"></i></a>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <nav class="flex items-center justify-between flex-wrap bg-pink-500 p-6 px-24">
+        <div class="container">
+          <div class="flex items-center text-white mr-6">
+            <a href="index.html"><span class="font-semibold text-xl mr-4">Головна</span></a>
+            <div class="block flex-grow">
+              <div class="text-sm flex justify-end">
+                <a href="#friendsid" class="mt-4 lg:mt-0 text-white hover:text-gray-200 mr-4">
+                  Друзі
+                </a>
+                <a href="#adventuresid" class="mt-4 lg:mt-0 text-white hover:text-gray-200 mr-4">
+                  Пригоди
+                </a>
+                <a href="#kittyid" class="mt-4 lg:inline-block lg:mt-0 text-white hover:text-gray-200 mr-4">
+                  Киця
+                </a>
+                <a href="#megaid" class="mt-4 lg:inline-block lg:mt-0 text-white hover:text-gray-200 mr-4">
+                  Мега
+                </a>
+                <a href="footerid" class="mt-4 lg:inline-block lg:mt-0 text-white hover:text-gray-200 mr-4">
+                  Кінець
+                </a>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main >
+      <div class="bg-pink-100 py-5" id="friendsid">
+        <div class="container mx-auto px-24 "> 
+          <div class="flex justify-between">
+            <div class="w-1/3 px-4">
+              <div class="pb-2 min-w-fit">
+                <div class="flex items-center">
+                  <img src="image/Kuromi.png" class="h-24">
+                  <h3 class="pl-2 text-3xl">Kuromi</h3>
+                </div>
+                <div>
+                  <p class="text-justify">Кошмарний кролик, який зазвичай одягнений у чорне та рожеве та має смутний вираз обличчя.</p>
+                </div>
+              </div>
+              <div class="pt-2 min-w-fit">
+                <div class="flex items-center">
+                  <img src="image/MyMelody.png" class="h-24">
+                  <h3 class="pl-2 text-3xl">MyMelody</h3>
+                </div>
+                <div>
+                  <p class="leading-snug">Білий кролик з великими вухами та рожевою квіткою на голові</p>
+                </div>
+              </div>
+            </div>
+            <div class="w-1/3 px-4">
+              <div class="pb-2 min-w-fit">
+                <div class="flex items-center">
+                  <img src="image/Badtz-Maru.png" class="h-24">
+                  <h3 class="pl-2 text-3xl">Badtz-Maru</h3>
+                </div>
+                <div>
+                  <p>Чорний пінгвін з білими очима та яскраво-жовтим дзьобом.<br><br> </p>
+                </div>
+              </div>
+              <div class="pt-2 min-w-fit">
+                <div class="flex items-center">
+                  <img src="image/Pompompurin.png" class="h-24">
+                  <h3 class="pl-2 text-3xl">Pompompurin</h3>
+                </div>
+                <div>
+                  <p>Жовте цуценя з великими білими очима та червоним беретом на голові.</p>
+                </div>
+              </div>
+            </div>
+            <div class="flex content-between flex-wrap w-1/3 px-4">
+              <div class="min-w-fit">
+                <div class="flex items-center">
+                  <img src="image/Keroppi.png" class="h-24">
+                  <h3 class="pl-2 text-3xl">Keroppi</h3>
+                </div>
+                <div>
+                  <p class="">Зелене жабеня з великими очима та червоними туфельками.</p>
+                </div>
+                
+              </div>
+              <div class="flex w-full justify-center pb-20" >
+                <a href="https://www.toybytoy.com/console/Friends-kitty-Hello-Kitty-list-of-characters" class="block text-right rounded-md bg-pink-400 p-2 hover:bg-pink-500">Більше про друзів...</a>
+
+              </div>
+            </div>
+          </div>
+          <div id="adventuresid">
+            <img src="image/adventures.png">
+          </div>
+        </div>
+      </div>
+      
+      <div class="bg-gray-200" id="kittyid">
+        <div class="container mx-auto px-24">
+          <div>
+            <div class="flex justify-center flex-wrap">
+              <h3 class="text-3xl py-5 font-bold">Хто ж така Hello Kitty?</h3>
+              <p class="text-center">Hello Kitty - це японський бренд, який заснований в 1974 році компанією Sanrio. Цей бренд відомий своїми яскравими і миленькими дизайнами, які стали популярними серед дітей та дорослих по всьому світу.</p>
+            </div>
+            <div class="flex justify-between py-5">
+              <div class="w-1/3">
+                <img src="image/kittygrey.jpg" class="w-auto">
+              </div>
+              <div class="pl-5 w-2/3">
+                <h2 class="pb-2 font-bold">Головний герой бренду - це кіт-дівчинка з великими очима та червоним бантиком.</h2>
+                <p class="pb-2 indent-20">Хоча вона називається "Hello Kitty", у японському оригіналі її ім'я - Кітті Вайт. Hello Kitty вже багато років є одним з найпопулярніших персонажів серед дітей, а також серед фанатів японської культури.</p>
+                <p class="">У світі Hello Kitty є безліч продуктів з її зображенням - від іграшок та одягу до посуду та косметики. Крім того, є багато тематичних парків та кафе з дизайном Hello Kitty. Вони знаходяться не тільки в Японії, але й у різних країнах світу.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> 
+      <div id="megaid">
+        <div class="container mx-auto px-24">
+          <div class="flex">
+            <div class="w-1/4 p-5">
+              <h2 class="pb-2 font-bold">Hello Kitty</h2>
+              <p>Це не просто популярний бренд, але і культурний символ, який став частиною нашого світу. Вона приносить радість та щастя своїм прихильникам у всьому світі серед дітей та дорослих.</p>
+            </div>
+            <div class="w-3/4 flex justify-center flex-wrap content-center">
+              <div class="flex justify-center h-24">
+                <div class="w-24">
+                  <img src="image/megakiity1.jpg" class="w-auto h-auto">
+                </div>
+                <div class="w-24">
+                  <img src="image/megakiity2.jpg" class="w-auto h-auto">
+                </div>
+                <div class="w-24">
+                  <img src="image/megakiity1.jpg" class="w-auto h-auto">
+                </div>
+                <div class="w-24">
+                  <img src="image/megakiity2.jpg" class="w-auto h-auto">
+                </div>
+              </div>
+              <div class="flex items-center h-24">
+                <div class="w-24">
+                  <img src="image/megakiity2.jpg" class="w-auto h-auto">
+                </div>
+                <div class="w-24">
+                  <img src="image/megakiity1.jpg" class="w-auto h-auto">
+                </div>
+                <div class="w-24">
+                  <img src="image/megakiity2.jpg" class="w-auto h-auto">
+                </div>
+                <div class="w-24">
+                  <img src="image/megakiity1.jpg" class="w-auto h-auto">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="bg-scroll footerimg" id="footerid">
+        <div class=" container mx-auto px-24 pt-20">
+          <h2 class="pb-2 font-bold text-center">Дякую за відвідування</h2>
+          <p class="text-center pb-2">Цей сайт має на меті донести до широкої аудиторії інформацію про цей популярний японський бренд та його головного персонажа - милу Кітті.</p>
+          <p class="text-center pb-2">Ми намагалися створити зміст, який буде цікавим та корисним для наших відвідувачів. Наша мета полягає в тому, щоб розширювати знання про культурний вплив Hello Kitty, її значення та історію.</p>
+          <p class="text-center pb-20">Ми сподіваємося, що відвідування нашого сайту принесло Вам задоволення та користь. Якщо у Вас є якісь пропозиції або зауваження, будь ласка, не соромтеся зв'язатися з нами. Ми завжди відкриті до співпраці та прослуховуємо думки наших відвідувачів.</p>
+        </div>
+      </div>
+      
+    </footer> 
+  </div>
+  </body>
+</html>
